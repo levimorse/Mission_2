@@ -9,11 +9,13 @@
     <Content Remove="wwwroot\index.html" />
     <Content Remove="wwwroot\img\" />
     <Content Remove="wwwroot\js\" />
+    <Content Remove="wwwroot\css\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\" />
     <Folder Include="wwwroot\img\" />
     <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\css\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\index.html" />
