@@ -1,11 +1,13 @@
 ﻿document.getElementById("Calc").addEventListener("click", function () {
-    
+
+    //Declaring variables;
     let Assign = $( "#Assign" ).val();
     let GP = $("#GP").val();
     let Quiz = $("#Quiz").val();
     let Exam = $("#Exam").val();
     let Intex = $("#Intex").val();
 
+    //Running Calculations
     Assign = Assign * .55;
     GP = GP * .05;
     Quiz = Quiz * .1;
@@ -14,6 +16,7 @@
 
     let Total = Assign + GP + Quiz + Exam + Intex;
 
+    //Determining Letter Grade;
     let LetterGrade = "";
 
     if (Total < 60) {
@@ -42,6 +45,7 @@
         LetterGrade = "A";
     }
 
+    //Displaying The Grade;
     alert(Total + "% which is a(n) " + LetterGrade);
     
 })
