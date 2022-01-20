@@ -1,7 +1,7 @@
 ﻿document.getElementById("Calc").addEventListener("click", function () {
 
     //Declaring variables;
-    let Assign = $( "#Assign" ).val();
+    let Assign = $("#Assign").val();
     let GP = $("#GP").val();
     let Quiz = $("#Quiz").val();
     let Exam = $("#Exam").val();
@@ -46,6 +46,6 @@
     }
 
     //Displaying The Grade;
-    alert(Total + "% which is a(n) " + LetterGrade);
+    return(Total + "% which is a(n) " + LetterGrade);
     
 })
